@@ -1,0 +1,11 @@
+﻿select (SELCT * FROM students WHERE name = 'giorgi')
+insert (INSERT INTO students (name, surname, email, birth_date) VALUES ('vaaxoo','tandilashvili','tandilashvilivaleri@gmail.com','1988-08-16'))
+update (UPDATE students SET man_woman = 'woman' WHERE gender = 2)
+delete (DELETE FROM students WHERE birth_date < 2000)
+
+
+
+SELECT * FROM `students`
+INSERT INTO `students` (`id`, `name`, `surname`, `birth_date`) VALUES (NULL, 'ირაკლი', 'ლომია', '1987-12-06'), (NULL, 'ოთარი', 'დათუაძე', '1990-10-05');
+UPDATE `students` SET `name` = 'ვახტანგ' WHERE `students`.`id` = 3;
+DELETE FROM `students` WHERE `students`.`id` = 2
